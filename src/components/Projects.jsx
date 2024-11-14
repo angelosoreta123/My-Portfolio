@@ -1,15 +1,21 @@
-import { projectList } from "../utilities/projectList";
+import { forwardRef } from "react";
+import { projectList } from "../utilities/ProjectList";
 
-const Projects = () => {
+const Projects = forwardRef((_, ref) => {
   return (
     <section
-      id="projects-section"
-      className=" text-darkSlateGreen max-w-7xl mx-auto px-4 pt-10 h-auto md:min-h-[100dvh]  flex flex-col gap-4 justify-center"
+      ref={ref}
+      className=" text-darkSlateGreen max-w-7xl mx-auto px-4 min-h-dvh  flex flex-col gap-4 justify-center"
     >
-      <h1 className="text-3xl text-deepBlue font-bold mb-6 lg:mb-10 lg:text-5xl text-deepCyan">Projects</h1>
-      <div className="flex flex-row flex-wrap gap-6 justify-evenly items-center">
+      <h1 className="text-3xl text-deepBlue font-bold mb-6 lg:mb-10 lg:text-5xl text-deepCyan pt-20">
+        Projects
+      </h1>
+      <div className="flex flex-col lg:flex-row flex-wrap gap-4">
         {projectList.map((project, index) => (
-          <div key={index} className="border-2 border-deepCyan md:w-5/12 rounded-lg">
+          <div
+            key={index}
+            className="border-2 border-deepCyan rounded-lg basis-[calc(50%-8px)]"
+          >
             <img
               src={project.image}
               alt={project.name}
@@ -24,12 +30,13 @@ const Projects = () => {
                   href={project.openLink.link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  alt="open project link"
                 >
                   {project.openLink.icon}
                 </a>
               </div>
 
-              <p className="text-xs md:text-lg mb-4 sm:text-sm text-justify">
+              <p className="text-xs md:text-lg mb-4 sm:text-sm text-justify lg:min-h-44">
                 {project.description}
               </p>
               <div className="flex flex-row justify-between items-center flex-wrap gap-6">
@@ -61,6 +68,6 @@ const Projects = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Projects;
