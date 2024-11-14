@@ -1,8 +1,6 @@
 import { FaJs, FaReact, FaHtml5, FaCss3 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { FaFigma, FaGitAlt } from "react-icons/fa";
-import { RiNotionFill } from "react-icons/ri";
-import { SiJira } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 
 export const techStack = [
