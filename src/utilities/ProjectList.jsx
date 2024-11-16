@@ -1,6 +1,7 @@
 import jobAppTrackerImage from "../assets/Job Application Tracker.png";
 import sortingVisualizer from "../assets/Sorting Visualizer.png";
 import todoList from "../assets/To Do List.jpg";
+import worldopedia from "../assets/Worldopedia.jpg";
 import { FaGithub } from "react-icons/fa";
 import {
   FaJs,
@@ -54,6 +55,7 @@ export const projectList = [
     },
     openLink: {
       icon: <FaExternalLinkAlt color="#fffff" size={18} />,
+      link: "https://angelosoreta123.github.io/Sorting-Visualizer/",
     },
   },
   {
@@ -74,7 +76,28 @@ export const projectList = [
     },
     openLink: {
       icon: <FaExternalLinkAlt color="#fffff" size={18} />,
-      link: "https://to-do-list-aef1f.web.app/",
+      link: "https://angelosoreta123.github.io/To-Do-List/",
+    },
+  },
+  {
+    name: "Worldopedia",
+    image: worldopedia,
+    description:
+      "Worldopedia is a dynamic web application that allows users to explore detailed information about countries across the globe. Users can search for countries, view specific data, and filter countries based on region or continent. The app also includes dark and light mode toggles, providing an enhanced user experience.",
+    techsUsed: {
+      techNames: ["React", "Tailwind"],
+      techIcons: [
+        <FaReact color="#61DAFB" size={18} key="react-icon" />,
+        <RiTailwindCssFill color="#38B2AC" size={18} key="tailwind-icon" />,
+      ],
+    },
+    github: {
+      icon: <FaGithub color="#fffff" size={18} />,
+      link: "https://github.com/angelosoreta123/Worldopedia",
+    },
+    openLink: {
+      icon: <FaExternalLinkAlt color="#fffff" size={18} />,
+      link: "https://angelosoreta123.github.io/Worldopedia",
     },
   },
 ];

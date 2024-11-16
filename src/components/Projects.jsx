@@ -19,7 +19,7 @@ const Projects = forwardRef((_, ref) => {
             <img
               src={project.image}
               alt={project.name}
-              className="rounded-t-md"
+              className="rounded-t-md lg:h-80 w-full"
             />
             <div className="p-5">
               <div className="flex border-b border-b-deepCyan mb-2 items-center justify-between">
