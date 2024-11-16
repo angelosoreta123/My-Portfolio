@@ -5,7 +5,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 **Key Features:**
 
 - **Personal Projects**: A collection of web development projects with descriptions, technologies used, and links to GitHub repositories and live demos.
-- **Skills & Technologies**: A list of my technical skills in frontend and backend development.
+- **Skills & Technologies**: A list of my technical skills in frontend developlment.
 - **Contact Information**: A section to reach out for job opportunities, collaborations, or general inquiries.
 - **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
 
