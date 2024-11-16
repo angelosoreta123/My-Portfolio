@@ -15,6 +15,48 @@ import { IoLogoFirebase } from "react-icons/io5";
 
 export const projectList = [
   {
+    name: "To Do List",
+    image: todoList,
+    description:
+      "A To-Do List App that allows users to manage tasks by adding, completing, and deleting them. It features drag-and-drop functionality, a dark/light mode toggle, and saves data using local storage for persistence.",
+    techsUsed: {
+      techNames: ["React", "Tailwind"],
+      techIcons: [
+        <FaReact color="#61DAFB" size={18} key="react-icon" />,
+        <RiTailwindCssFill color="#38B2AC" size={18} key="tailwind-icon" />,
+      ],
+    },
+    github: {
+      icon: <FaGithub color="#fffff" size={18} />,
+      link: "https://github.com/angelosoreta123/To-Do-List",
+    },
+    openLink: {
+      icon: <FaExternalLinkAlt color="#fffff" size={18} />,
+      link: "https://angelosoreta123.github.io/To-Do-List/",
+    },
+  },
+  {
+    name: "Worldopedia",
+    image: worldopedia,
+    description:
+      "Worldopedia is a dynamic web application that allows users to explore detailed information about countries across the globe. Users can search for countries, view specific data, and filter countries based on region or continent. The app also includes dark and light mode toggles, providing an enhanced user experience.",
+    techsUsed: {
+      techNames: ["React", "Tailwind"],
+      techIcons: [
+        <FaReact color="#61DAFB" size={18} key="react-icon" />,
+        <RiTailwindCssFill color="#38B2AC" size={18} key="tailwind-icon" />,
+      ],
+    },
+    github: {
+      icon: <FaGithub color="#fffff" size={18} />,
+      link: "https://github.com/angelosoreta123/Worldopedia",
+    },
+    openLink: {
+      icon: <FaExternalLinkAlt color="#fffff" size={18} />,
+      link: "https://angelosoreta123.github.io/Worldopedia",
+    },
+  },
+  {
     name: "Job Application Tracker",
     image: jobAppTrackerImage,
     description:
@@ -56,48 +98,6 @@ export const projectList = [
     openLink: {
       icon: <FaExternalLinkAlt color="#fffff" size={18} />,
       link: "https://angelosoreta123.github.io/Sorting-Visualizer/",
-    },
-  },
-  {
-    name: "To Do List",
-    image: todoList,
-    description:
-      "A To-Do List App that allows users to manage tasks by adding, completing, and deleting them. It features drag-and-drop functionality, a dark/light mode toggle, and saves data using local storage for persistence.",
-    techsUsed: {
-      techNames: ["React", "Tailwind"],
-      techIcons: [
-        <FaReact color="#61DAFB" size={18} key="react-icon" />,
-        <RiTailwindCssFill color="#38B2AC" size={18} key="tailwind-icon" />,
-      ],
-    },
-    github: {
-      icon: <FaGithub color="#fffff" size={18} />,
-      link: "https://github.com/angelosoreta123/To-Do-List",
-    },
-    openLink: {
-      icon: <FaExternalLinkAlt color="#fffff" size={18} />,
-      link: "https://angelosoreta123.github.io/To-Do-List/",
-    },
-  },
-  {
-    name: "Worldopedia",
-    image: worldopedia,
-    description:
-      "Worldopedia is a dynamic web application that allows users to explore detailed information about countries across the globe. Users can search for countries, view specific data, and filter countries based on region or continent. The app also includes dark and light mode toggles, providing an enhanced user experience.",
-    techsUsed: {
-      techNames: ["React", "Tailwind"],
-      techIcons: [
-        <FaReact color="#61DAFB" size={18} key="react-icon" />,
-        <RiTailwindCssFill color="#38B2AC" size={18} key="tailwind-icon" />,
-      ],
-    },
-    github: {
-      icon: <FaGithub color="#fffff" size={18} />,
-      link: "https://github.com/angelosoreta123/Worldopedia",
-    },
-    openLink: {
-      icon: <FaExternalLinkAlt color="#fffff" size={18} />,
-      link: "https://angelosoreta123.github.io/Worldopedia",
     },
   },
 ];
