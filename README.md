@@ -16,4 +16,4 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 
 **How to View the Portfolio:**
 
-You can view my portfolio by visiting [this link](https://michael-angelo-soreta.web.app/).
+You can view my portfolio by visiting [this link](https://angelosoreta123.github.io/Portfolio/).
