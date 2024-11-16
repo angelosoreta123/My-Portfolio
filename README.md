@@ -12,7 +12,6 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 **Technologies Used:**
 
 - **Frontend**: React JS, Tailwind CSS
-- **Backend**: Firebase 
 
 **How to View the Portfolio:**
 
