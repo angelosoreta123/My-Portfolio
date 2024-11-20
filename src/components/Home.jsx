@@ -29,7 +29,7 @@ const Home = forwardRef(({ handleScrollToItem }, ref) => {
           </button>
           <button
             className="border-2 border-deepCyan bg-deepCyan px-3 py-2 rounded-3xl text-lightMint hover:bg-cyan-800 transition-all duration-300"
-            onClick={() => window.open("/Michael_Soreta_Resume.pdf", "_blank")}
+            onClick={() => window.open("/My-Portfolio/Michael_Soreta_Resume.pdf", "_blank")}
           >
             Resume
           </button>

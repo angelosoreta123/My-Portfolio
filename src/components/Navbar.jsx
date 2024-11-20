@@ -30,7 +30,7 @@ const Navbar = ({ handleScrollToItem }) => {
   return (
     <nav className={navClassName}>
       <div className="max-w-7xl flex justify-between mx-auto items-center">
-        <a href="/">
+        <a href="/My-Portfolio">
           <h1 className="text-2xl font-semibold ">{"<MASS/>"}</h1>
         </a>
 
