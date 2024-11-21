@@ -41,7 +41,15 @@ const Contact = forwardRef((_, ref) => {
               </div>
             </a>
           </div>
-          <form className="flex flex-col gap-6 flex-1 w-full">
+          <form
+            className="flex flex-col gap-6 flex-1 w-full"
+            onSubmit={(e) => {
+              e.preventDefault();
+              alert(
+                "Thank you for your interest! Unfortunately, the contact form is not functional at the moment. Please feel free to reach out to me directly at my email."
+              );
+            }}
+          >
             <input
               type="text"
               name="name"
