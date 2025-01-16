@@ -2,6 +2,7 @@ import { FaJs, FaReact, FaHtml5, FaCss3 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
+import { BiLogoTypescript } from "react-icons/bi";
 
 export const techStack = [
   {
@@ -15,6 +16,10 @@ export const techStack = [
   {
     tech: "JavaScript",
     icons: <FaJs color="#F7DF1E" size={50} />,
+  },
+  {
+    tech: "TypeScript",
+    icons: <BiLogoTypescript color="#3178C6" size={50} />,
   },
   {
     tech: "React",

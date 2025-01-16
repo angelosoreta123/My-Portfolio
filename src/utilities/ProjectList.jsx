@@ -2,6 +2,7 @@ import jobAppTrackerImage from "../assets/Job Application Tracker.png";
 import sortingVisualizer from "../assets/Sorting Visualizer.png";
 import todoList from "../assets/To Do List.jpg";
 import worldopedia from "../assets/Worldopedia.jpg";
+import ecommerceWebsite from "../assets/Ecommerce Website.jpg";
 import { FaGithub } from "react-icons/fa";
 import {
   FaJs,
@@ -12,27 +13,30 @@ import {
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoFirebase } from "react-icons/io5";
+import { BiLogoTypescript } from "react-icons/bi";
+
 
 export const projectList = [
   {
-    name: "To Do List",
-    image: todoList,
+    name: "Ecommerce Website",
+    image: ecommerceWebsite,
     description:
-      "A To-Do List App that allows users to manage tasks by adding, completing, and deleting them. It features drag-and-drop functionality, a dark/light mode toggle, and saves data using local storage for persistence.",
+      "This frontend E-commerce website enables users to browse products with detailed descriptions and images, search for specific items, and explore product categories. Users can add products to their cart and manage their selections, with all data stored and handled within the frontend. The site is fully responsive, ensuring compatibility across all devices.",
     techsUsed: {
-      techNames: ["React", "Tailwind"],
+      techNames: ["React", "TypeScript", "Tailwind"],
       techIcons: [
         <FaReact color="#61DAFB" size={18} key="react-icon" />,
+        <BiLogoTypescript color="#3178C6" size={18} key="typescript-icon"/>,
         <RiTailwindCssFill color="#38B2AC" size={18} key="tailwind-icon" />,
       ],
     },
     github: {
       icon: <FaGithub color="#fffff" size={18} />,
-      link: "https://github.com/angelosoreta123/To-Do-List",
+      link: "https://github.com/angelosoreta123/Ecommerce-Website",
     },
     openLink: {
       icon: <FaExternalLinkAlt color="#fffff" size={18} />,
-      link: "https://angelosoreta123.github.io/To-Do-List/",
+      link: "https://ecommerce-website-53db2.web.app/",
     },
   },
   {
@@ -54,6 +58,27 @@ export const projectList = [
     openLink: {
       icon: <FaExternalLinkAlt color="#fffff" size={18} />,
       link: "https://angelosoreta123.github.io/Worldopedia",
+    },
+  },
+  {
+    name: "To Do List",
+    image: todoList,
+    description:
+      "A To-Do List App that allows users to manage tasks by adding, completing, and deleting them. It features drag-and-drop functionality, a dark/light mode toggle, and saves data using local storage for persistence.",
+    techsUsed: {
+      techNames: ["React", "Tailwind"],
+      techIcons: [
+        <FaReact color="#61DAFB" size={18} key="react-icon" />,
+        <RiTailwindCssFill color="#38B2AC" size={18} key="tailwind-icon" />,
+      ],
+    },
+    github: {
+      icon: <FaGithub color="#fffff" size={18} />,
+      link: "https://github.com/angelosoreta123/To-Do-List",
+    },
+    openLink: {
+      icon: <FaExternalLinkAlt color="#fffff" size={18} />,
+      link: "https://angelosoreta123.github.io/To-Do-List/",
     },
   },
   {
