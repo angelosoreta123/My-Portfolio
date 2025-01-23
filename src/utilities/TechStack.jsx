@@ -1,5 +1,5 @@
 import { FaJs, FaReact, FaHtml5, FaCss3 } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiTailwindCssFill, RiBootstrapFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -28,6 +28,10 @@ export const techStack = [
   {
     tech: "Tailwind",
     icons: <RiTailwindCssFill color="#38B2AC" size={50} />,
+  },
+  {
+    tech: "Bootstrap",
+    icons: <RiBootstrapFill color="#7952b3" size={50} />,
   },
   {
     tech: "Firebase",
